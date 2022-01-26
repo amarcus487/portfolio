@@ -1,0 +1,236 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #F0F8FF;
+    margin: 0;
+    background-image: url('../img/background-img.jpeg');
+    background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 110px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+nav {
+    flex: 1;
+    text-align: right;
+    display: inline-block;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    color: #464646;
+}
+
+.navigator {
+    text-decoration: none;
+    color: white;
+    display: block;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-right: 40px;
+}
+
+main {
+    color: white;
+    margin-top: 140px;
+    margin-left: 50px;
+    font-size: 23px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.learn {
+    font-size: 18px;
+    color: #F7EFEF;
+}
+
+.learn-link {
+    color: #F7EFEF;
+    text-decoration: none;
+}
+
+button {
+    background-color: #040020;
+    border-color: white;
+    font-size: 15px;
+    color: white;
+    margin-top: 20px;
+    padding: 5px;
+    border-width: thin;
+}
+
+button:hover {
+    color: lightgray;
+    border-color: lightgray;
+}
+
+.footer-home {
+    position: absolute;
+    bottom: 0;
+}
+
+footer {
+    color: white;
+    margin-left: 50px;
+    margin-top: 100px;
+    padding-bottom: 10px;
+}
+
+footer a {
+    color: white;
+}
+
+#different-background {
+    background-image: none;
+    background-color: #040020;
+}
+
+#about-background {
+    background-image: url('../img/about-background.png');
+    background-size: cover;
+}
+
+.about-p {
+    margin-right: 550px;
+    font-size: 20px;
+}
+
+.figma1-container {
+    display: flex;
+    background-color: #0B005B;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 100%;
+}
+
+.figma1-container:hover {
+    background-color: #0C0066;
+}
+
+#d-background {
+    background-color: #040020;
+}
+
+#d-background:hover {
+    background-color: #06002F;
+}
+
+.text {
+    font-size: 20px;
+    padding-right: 350px;
+}
+
+.text-big {
+    font-size: 25px;
+}
+
+#shrink {
+    margin-left: 0;
+    margin-top: 75px;
+}
+
+.project-button {
+    background-color: #0B005B;
+}
+
+.project-button2 {
+    background-color: #040020;
+}
+
+.adjust {
+    width: 403.562px;
+}
+
+.navigator2 {
+    text-decoration: none;
+    color: white;
+}
+
+#dashboard-background {
+    background-image: url('../img/background-2.jpeg');
+    background-size: cover;
+}
+
+.text-small {
+    font-size: 18px;
+}
+
+.dashboard-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 100px;
+}
+
+.dashboard-text {
+    padding-right: 70px;
+    color: white;
+    padding-left: 85px;
+}
+
+#small-margin {
+    margin-top: 80px;
+    margin-left: 0;
+}
+
+.hackathon-text {
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.column {
+    padding: 5px;
+}
+
+.interface {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.new-background1 {
+    background-color: #060030;
+    padding-top: 10px;
+    margin-top: 10px;
+    padding-bottom: 70px;
+}
+
+.new-background2 {
+    background-color: #03001a;
+    padding-top: 10px;
+}
+
+#change {
+    background-color: #03001a;
+    padding-top: 50px;
+    padding-left: 50px;
+    margin-top: 0;
+    margin-left: 0;
+}
