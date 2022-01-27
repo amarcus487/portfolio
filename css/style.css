@@ -69,7 +69,7 @@ main {
 }
 
 button {
-    background-color: #040020;
+    background-color: Transparent;
     border-color: white;
     font-size: 15px;
     color: white;
@@ -149,13 +149,6 @@ footer a {
     margin-top: 75px;
 }
 
-.project-button {
-    background-color: #0B005B;
-}
-
-.project-button2 {
-    background-color: #040020;
-}
 
 .adjust {
     width: 403.562px;
@@ -233,4 +226,31 @@ footer a {
     padding-left: 50px;
     margin-top: 0;
     margin-left: 0;
+}
+
+.career-container {
+    display: flex;
+    padding-left: 200px;
+    padding-right: 125px;
+}
+
+.career-item {
+    flex: 1;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+.career-button {
+    margin-top: 90px;
+    padding: 20px;
+}
+.career-button a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.career-button:hover {
+    border-color: #464646;
+    color: #464646
 }
